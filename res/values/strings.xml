@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">KM</string>
+    <string name="categories_name">بخشها</string>
+
+    <string name="app_title">Knowledge Management System</string>
+    <string name="category_addCategory">Add Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="key_name">Key</string>
+    <string name="key_value">Value</string>
+    <string name="category_description">Description</string>
+    <string name="category_list">List</string>
+    <string name="sms_long">سلام این یک متن فارسی نسبتا بلند می باشد</string>
+
+
+</resources>

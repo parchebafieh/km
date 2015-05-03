@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.qusci.km"
+
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <application android:label="@string/app_name"
+                 android:name="com.qusci.km.app.AppController"
+                 android:theme="@style/Theme.White11"
+                 android:supportsRtl="true"
+
+                 android:icon="@drawable/ic_launcher">
+
+
+        <activity android:name="MainActivity"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+        </activity>
+        
+      <activity android:screenOrientation="portrait" android:name="com.qusci.km.CategoryActivity"
+                android:theme="@android:style/Theme.Dialog"
+              />
+      <activity android:screenOrientation="portrait" android:name="com.qusci.km.TabesViewPagerActivity" />
+      <activity android:screenOrientation="portrait" android:name="com.qusci.km.CategoryListActivity" />
+        <activity android:screenOrientation="portrait" android:name="com.qusci.km.DynamicFragmentActivity" />
+        <activity android:screenOrientation="portrait" android:name="com.qusci.km.BooksDoanloadActivity"
+                android:theme="@android:style/Theme.Dialog"
+                />
+        <activity android:screenOrientation="portrait" android:name="com.qusci.km.KeyActivity"
+                  android:theme="@android:style/Theme.Dialog"
+                />
+
+        <activity android:screenOrientation="portrait" android:name="com.qusci.km.ValueActivity"
+                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+                />
+
+        <activity android:screenOrientation="portrait" android:name="com.qusci.km.ReviewActivity" />
+        <activity android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Holo.Dialog.MinWidth"
+                  android:name="com.qusci.km.YesNoActivity" />
+
+        <activity android:screenOrientation="portrait"
+                  android:name="com.qusci.km.DeckActivity" />
+
+
+
+
+        <activity android:screenOrientation="portrait"
+                  android:theme="@style/Theme.Transparent"
+                  android:name="com.qusci.km.SplashActivity" >
+
+
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
+
+
+        <service
+                android:name="com.qusci.km.service.DownloadIntentService"
+                android:exported="false"/>
+
+
+    </application>
+</manifest>

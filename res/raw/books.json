@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Design Patterns - Elements of Reusable Object-Oriented Software (Gang of Four)",
+        "authors": {
+            "author1": "Erric Gamma",
+            "author2": "Richard Helm"
+        }
+    },
+    {
+        "name": "JBoss in Action - Configuring the JBoss Application Server",
+        "authors": {
+            "author1": "Peter Johnson",
+            "author2": "Javid Jamae"
+        }
+    },
+    {
+        "name": "TCP IP Sockets in Java Practical Guide for Programmers The Practical Guides",
+        "authors": {
+            "author1": "Peter Johnson",
+            "author2": "Javid Jamae"
+        }
+    },
+    {
+        "name": "TCP IP Sockets in Java Practical Guide for Programmers The Practical Guides",
+        "authors": {
+            "author1": "Kenneth Calvert",
+            "author2": "Michel Donahoo"
+        }
+    }
+]
